@@ -1,0 +1,6 @@
+[submodule "bootstrap"]
+	path = bootstrap
+	url = https://github.com/twitter/bootstrap.git
+[submodule "datatables"]
+	path = datatables
+	url = https://github.com/DataTables/DataTables.git
