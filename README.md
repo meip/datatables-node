@@ -1,14 +1,14 @@
 ## DataTables.net and Node.js with Bootstrap
 
-This example is an example data provider implementation for datatables.net server-side processing.
+This is an example data provider implementation for datatables.net server-side processing with node.js.  
 It works like the [existing php data provider.](http://www.datatables.net/examples/data_sources/server_side.html)
 
-It uses the following components:
+The example uses the following components:
   * [datatables.net](http://datatables.net/)
   * [Bootstrap](http://twitter.github.com/bootstrap/)
   * [Node.js](http://nodejs.org/)
-    1. [Node-mysql](https://github.com/felixge/node-mysql)
-    1. [Express](http://expressjs.com/)
+     * [Node-mysql](https://github.com/felixge/node-mysql)
+     * [Express](http://expressjs.com/)
 
 ## Setup
   * Clone the repo and setup the environment
@@ -18,6 +18,7 @@ It uses the following components:
   * This examples used [bootstrap as a git-submodule](http://martinbrochhaus.com/2013/01/bootstrap.html)
     ```
     $ cd cd static/css/libs/bootstrap/
+    
     $ ln -s ../../../../bootstrap/less/* .
     ```
 
